@@ -1,8 +1,8 @@
 # Google-Earth-VR-Pilot
-FreePIE Script for Google Earth VR with Oculus Rift.
-Lets you pilot the virtual HTC Vive controllers within Google Earth VR with your Xbox controller.
+**_FreePIE_ Script for _Google Earth VR_ with _Oculus Rift_**.
+Lets you pilot the virtual *HTC Vive* controllers within *Google Earth VR* with your *Xbox* controller.
 
-Currently, Google Earth VR can only be used with the HTC Vive headset in full functionality. Operation is by using the HTC Vive Controllers to move around in virtual reality. In order to use Google Earth VR with the Oculus Rift, a software solution can be used that emulates the controllers of the HTC Vive. The software setup uses FreePIE to control the SteamVR Driver for Razer Hydra. This driver in turn emulates the HTC Vive controllers for use in Google Earth VR.
+Currently, *Google Earth VR* can only be used with the *HTC Vive* headset in full functionality. Operation is by using the *HTC Vive* Controllers to move around in virtual reality. In order to use *Google Earth VR* with the *Oculus Rift*, a software solution can be used that emulates the controllers of the *HTC Vive*. The software setup uses *FreePIE* to control the *SteamVR Driver for Razer Hydra*. This driver in turn emulates the *HTC Vive* controllers for use in *Google Earth VR*.
 
 # Downloads
 
