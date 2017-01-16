@@ -20,10 +20,23 @@ from: http://store.steampowered.com/app/491380/
 
 # Installation
 
-First 
-This article describes the installation of an emulation setup with the "SteamVR Driver for Razer™ Hydra" and FreePIE to use an Xbox controller:
+FreePIE and the SteamVR driver must be installed first.
 
-  www.reddit.com/r/oculus/comments/55fum1/how_to_get_theblu_working_on_rift/
+Then two files have to be replaced:
+
+In the FreePIE program directory, find the files sixense_fake.dll and sixense_fake_x64.dll.
+
+Find the directories Win32 and Win64 under the following path:
+
+C:\Program Files (x86)\Steam\steamapps\common\SteamVR Driver for Razer Hydra\hydra\bin\
+
+Copy sixense_fake.dll to the Win32 subdirectory.
+
+Copy sixense_fake_x64.dll to the Win64 subdirectory.
+
+Delete or rename the original sixense.dll in the Win32 directory. Then rename the file sixense_fake.dll to sixense.dll.
+
+Delete or rename the original sixense_x64.dll in the Win64 directory. Then rename the file sixense_fake_x64.dll to sixense_x64.dll.
 
 # Operation
 
