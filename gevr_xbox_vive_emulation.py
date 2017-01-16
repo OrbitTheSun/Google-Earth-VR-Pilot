@@ -1,7 +1,7 @@
 from math import pi, sin, cos, tan, asin, acos, atan, atan2, sqrt
 global pressed
 
-eps = 40/180.0*pi
+eps = 38/180.0*pi
 
 def vive_controller():
 	i=0
@@ -220,46 +220,8 @@ def vive_controller():
 	diagnostics.watch(Az1)
 	diagnostics.watch(h1)
 	
-def sqr(x):
-	return x*x
-
 def hydra_angles(Az, h):
-
-	if abs(sin(Az)) < 0.00001:
-		if cos(Az) > 0:
-			return [0,h-eps,0]
-		else:
-			return [pi,pi+h-eps,0]
-
-	Az = pi-Az
-	h = -h
-	alpha = -atan2(sin(Az), tan(h-pi/2+eps))
-	for i in range(2):
-		alpha = alpha + i*pi
-		beta = -atan2(sin(alpha), tan(Az))
-		for j in range(2):
-			beta = beta + j*pi
-			gamma = atan2(tan(alpha), sin(beta))
-			for k in range(2):
-				gamma = gamma + k*pi
-				delta = cos(alpha)*cos(beta)*sin(eps)+cos(eps)*(sin(alpha)*sin(gamma)+cos(alpha)*sin(beta)*cos(gamma)) - sin(h)
-				if abs(delta) > 0.00001:
-					continue
-				AZ = -atan2(sin(alpha)*cos(beta)*sin(eps)+cos(eps)*(sin(alpha)*sin(beta)*cos(gamma)-cos(alpha)*sin(gamma)),
-					sin(beta)*sin(eps)-cos(beta)*cos(gamma)*cos(eps))
-				if abs(cos(AZ)-cos(Az)) > 0.00001 or abs(sin(AZ)-sin(Az)) > 0.00001:
-					continue
-				if cos(alpha)*cos(beta)*cos(eps) - sin(eps)*(sin(alpha)*sin(gamma)+cos(alpha)*sin(beta)*cos(gamma)) > 0:
-					continue
-				diagnostics.watch(alpha)
-				diagnostics.watch(beta)
-				diagnostics.watch(gamma)
-				diagnostics.watch(delta)
-				return [alpha+pi, beta, gamma]
-
-	delta = -99
-	diagnostics.watch(delta)
-	return [0,-eps-pi/2,0]
+	return [0, h-eps, Az]
 
 def hydra_init():
 	global Az0
