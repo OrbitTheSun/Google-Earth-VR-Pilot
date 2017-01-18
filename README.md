@@ -1,5 +1,5 @@
 # Google-Earth-VR-Pilot
-**_FreePIE_ Script for _Google Earth VR_ with _Oculus Rift_**.
+**_FreePIE_ Script for _Google Earth VR_ with _Oculus Rift_**  
 Lets you pilot the virtual *HTC Vive* controllers within *Google Earth VR* with your *Xbox* controller.
 
 Currently, *Google Earth VR* can only be used with the *HTC Vive* headset in full functionality. Operation is by using the *HTC Vive* Controllers to move around in virtual reality. In order to use *Google Earth VR* with the *Oculus Rift*, a software solution can be used that emulates the controllers of the *HTC Vive*. The software setup uses *FreePIE* to control the *SteamVR Driver for Razer Hydra*. This driver in turn emulates the *HTC Vive* controllers for use in *Google Earth VR*.
@@ -34,4 +34,12 @@ Then two files have to be replaced:
 
 To use *Google Earth VR* with the emulated *Hydra* controllers, you must start *FreePIE* first. Load the attached script ***' 	gevr_xbox_vive_emulation.py'** in *FreePIE* and start it with **F5**.
 
-Then *Google Earth VR* can be started (via *Steam*). After a short time, you will be prompted to press any key on the controllers. Then **press both triggers** of the *Xbox* controller.
+After that start *Google Earth VR* (via *Steam*). After a short time, you will be prompted to press any key on the controllers. Then **press both triggers** of the *Xbox* controller.
+
+Then hold **LB** and **RB** and press **START** button. Initialization of the control is now complete.
+
+### How the _HTC Vive_ controls work
+
+The left *Vive* controller can be used like a flashlight pointer to grab and move the virtual world by pulling the trigger. Flying and turning the world works with the other buttons.
+
+With the right Vive controller, ... [tbc]
