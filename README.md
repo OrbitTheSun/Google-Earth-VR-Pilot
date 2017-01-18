@@ -2,7 +2,7 @@
 **_FreePIE_ Script for _Google Earth VR_ with _Oculus Rift_**  
 Lets you pilot the virtual *HTC Vive* controllers within *Google Earth VR* with your *Xbox* controller.
 
-Currently, *Google Earth VR* can only be used with the *HTC Vive* headset in full functionality. Operation is by using the *HTC Vive* Controllers to move around in virtual reality. In order to use *Google Earth VR* with the *Oculus Rift*, a software solution can be used that emulates the controllers of the *HTC Vive*. The software setup uses *FreePIE* to control the *SteamVR Driver for Razer Hydra*. This driver in turn emulates the *HTC Vive* controllers for use in *Google Earth VR*.
+Currently, *Google Earth VR* can only be used with the *HTC Vive* headset in full functionality. Operation is by using the *HTC Vive* controllers to move around in virtual reality. In order to use *Google Earth VR* with the *Oculus Rift*, a software solution can be used that emulates the controllers of the *HTC Vive*. The software setup uses *FreePIE* to control the *SteamVR Driver for Razer Hydra*. This driver in turn emulates the *HTC Vive* controllers for use in *Google Earth VR*.
 
 # Downloads
 
@@ -32,7 +32,8 @@ Then two files have to be replaced:
 
 # Operation
 
-To use *Google Earth VR* with the emulated *Hydra* controllers, you must start *FreePIE* first. Load the attached script ***' 	gevr_xbox_vive_emulation.py'** in *FreePIE* and start it with **F5**.
+To use *Google Earth VR* with the emulated *Hydra* controllers, you must start *FreePIE* first.
+Load the attached script ***gevr_xbox_vive_emulation.py*** in *FreePIE* and start it with **F5**.
 
 After that start *Google Earth VR* (via *Steam*). After a short time, you will be prompted to press any key on the controllers. Then **press both triggers** of the *Xbox* controller.
 
@@ -47,4 +48,9 @@ The buttons on this controller can be used to scroll through the menu or to save
 
 Watch the tutorial (see menu) to get an introduction to the operation of the buttons.
 
-### Operation using the Xbox controller
+### Operation using the _Xbox_ controller
+
+Interacting with the virtual world is mainly done with the left *Vive* controller.
+Therefore, the *Xbox* controls primarily affect this controller.
+
+To control the right *Vive* controller, the **RB** key must be pressed and held.
