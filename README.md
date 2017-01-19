@@ -49,9 +49,9 @@ Then hold **LB** and **RB** and press **START** button. Initialization of the co
 ### How the _HTC Vive_ controls work
 
 The left *Vive* controller can be used like a flashlight pointer to grab and move the virtual world by pulling
-the trigger. Other buttons allow you to open the menu, fly and rotate the world.
+the trigger. Other buttons allow you to open and scroll the menu, fly and rotate the world.
 
-The right *Vive* controller holds a mini-globe to display the current world position, which is also displayed in writing.  
+The right *Vive* controller holds a mini-globe to display the current world position, which is also displayed with text.  
 The buttons on this controller can be used to scroll through the menu or to save the current view as a snapshot.
 
 Watch the tutorial (see menu) to get an introduction to the operation of the buttons.
