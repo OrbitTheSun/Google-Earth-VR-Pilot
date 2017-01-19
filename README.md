@@ -63,11 +63,11 @@ Therefore, the *Xbox* controls primarily affect this controller.
 
 To affect the right *Vive* controller, the **RB** key must be pressed and held.
 
-You can change the **orientation** of a *Vive* controller by using the **Left Stick** of the *Xbox* controller.
+- You can change the **orientation** of a *Vive* controller by using the **Left Stick** of the *Xbox* controller.
 **Pitch** and **yaw** of the controller are changed.
-
-The **position** of a *Vive* controller can be changed with the **Right Stick**, the **D-Pad** or the
-**Left Stick** while the **LB** button is pressed. The **D-Pad** moves the *Vive* controller **horizontally
-along its axes**, while a **stick** moves the controller **vertically** or makes it **circle** around the origin.
-
-
+- The **position** of a *Vive* controller can be changed with the **Right Stick**, the **D-Pad** or the
+**Left Stick** while the **LB** button is pressed:  
+  - The **D-Pad** moves a *Vive* controller **horizontally** along its axes.  
+  - A **stick** moves a controller **vertically** or makes it **circle** around the origin.  
+  - A **thumb press** returns a controller to its **starting point**.
+  Press the **left** or the **right thumb** for the respective controller.
