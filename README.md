@@ -71,3 +71,16 @@ To affect the **right** *Vive* controller, the **RB** key must be pressed and **
   - A **stick** moves a controller **vertically** or makes it **circle** around the origin.  
   - A **thumb press** returns a controller to its **starting point**.  
     Press the **left** or the **right thumb** for the respective controller.
+    
+#### Button assignment and function
+
+*Xbox* controller button | *HTC Vive* controller button | Function
+--- | --- | ---
+**Left Trigger** | Left Trigger | *Grab* earth or sky <br> *Click menu* <br> *Slow down* flight
+**Right Trigger** | Right Trigger | *No function*
+Face button **B** | bbb | *Fly forward* <br> *Scroll forward* in menu
+Face button **A** | aaa | *Fly backwards* <br> *Scroll backwards* in menu
+Face button **Y** | yyy | *Open* or *close* menu
+Face button **X** | xxx | **Hold** to *rotate landscape* with the **Left Stick**
+
+
